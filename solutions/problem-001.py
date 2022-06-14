@@ -24,4 +24,4 @@ assert solution.solve([10, 15, 3, 4], 17) == False
 
 
 # There is a pair of integers that will produce the target inteher, 1, which are integers 3 and -2. Therefore, the function should return True.
-assert solution.solve([2, 5, 3, -2], 1)
+assert solution.solve([2, 5, 3, -2], 1) == True
