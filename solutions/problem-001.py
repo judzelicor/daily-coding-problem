@@ -11,7 +11,7 @@ class Solution:
 
 solution = Solution()
 
-# There are no integers in the list. Therefore it is impossible to produce the target integer and the function should return False.
+# There are no integers in the list. Therefore, it is impossible to produce the target integer and the function should return False.
 assert solution.solve([], 17) == False
 
 
@@ -23,5 +23,5 @@ assert solution.solve([10, 15, 3, 7], 17) == True
 assert solution.solve([10, 15, 3, 4], 17) == False
 
 
-# There is a pair of integers that will produce the target inteher, 1, which are integers 3 and -2. Therefore, the function should return True.
+# There is a pair of integers that will produce the target integer, 1, which are integers 3 and -2. Therefore, the function should return True.
 assert solution.solve([2, 5, 3, -2], 1) == True
